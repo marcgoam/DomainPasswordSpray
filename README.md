@@ -80,10 +80,10 @@ Round 3: Welcome1 → ALL users → ✅ Complete!
 |----------|----------|-------- |
 | -Password	| Single common password | Winter2026
 | -PasswordList | Multiple passwords sequentially | passwords.txt
-| -UsernameAsPassword |	Hunt lazy users
+| -UsernameAsPassword |	Hunt lazy users | -
 | -UserList | Custom target list | targets.txt
-| -Filter | Admin/Service accounts only | (description=*admin*)
 | -OutFile | Save valid credentials | creds.txt
+| -dc | Manual input DC ip | -
 
 <div align="center">
 
