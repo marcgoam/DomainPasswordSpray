@@ -34,7 +34,7 @@ Perfect for:
 
 - Common passwords: Password123, Winter2026, Summer2024
 - Seasonal passwords: Q1_2026, Verano2026
-- Default passwords from company policyç
+- Default passwords from company policy
 - Safety: Only 1 attempt per user = zero lockout risk
 
 ### Username-as-Password: Username = Password
