@@ -55,7 +55,6 @@ class DomainPasswordSpray:
     
        base_dn = f"DC={self.domain.replace('.', ',DC=')}"
        conn.search(base_dn, '(objectClass=*)', attributes=['lockOutObservationWindow'])
-       print(f"[DEBUG] Entries found: {len(conn.entries)}")
     
        if conn.entries and conn.entries[0].lockOutObservationWindow:
            window_value = conn.entries[0].lockOutObservationWindow.value
